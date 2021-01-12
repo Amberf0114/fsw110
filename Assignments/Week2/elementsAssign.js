@@ -3,7 +3,7 @@ h1Element.textContent = "Welcome to my JS site"
 document.body.append(h1Element)
 
 var pElement =document.createElement("p")
-pElement.textContent="All of this was created with Javascript”."
+pElement.textContent="All of this was created with Javascript."
 document.body.append(pElement)
 
 var olElement=document.createElement("ol")
