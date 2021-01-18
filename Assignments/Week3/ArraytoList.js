@@ -22,13 +22,11 @@ var constNames = [
 ];
 
 
-// for loop to iterate through array as is
-
-for (var i = 0; i < constNames.length; i ++) {
-    console.log(constNames[i])
+// for loop to iterate through array
+var namesList = document.createElement("ul")
+for (var i = 0; i < constNames.length; i++) {
+    var newName = document.createElement("li")
+    newName.textContent = constNames[i]
+   namesList.append(newName)
 }
-document.body.append(constNames)
-
-
-
-
+document.body.append(namesList)
