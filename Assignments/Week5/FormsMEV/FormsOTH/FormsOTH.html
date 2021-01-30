@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airlines+ Flight Reservation Form</title>
+    <link rel="stylesheet" href="FormsOTH.css"/>
+</head>
+<body>
+    <h1>
+        Airlines+ Flight Reservation Form
+    </h1>
+    <form name = "form">
+        <input type="text" placeholder="First Name" name="firstname" id="fName" required>
+        <input type="text" placeholder="Last Name" name="lastname" id="lName" required>
+        Age <input type="number" placeholder="mm/dd/yyyy" name="age" id="birthDate" required>
+        <br>
+        <br>
+        What is the traveler's gender?
+        </br>
+        Male: <input type="radio" name="gender" id="mGender" value="Male"/>
+        Female: <input type="radio" name="gender" id="fGender" value="Female"/>
+        Decline: <input type="radio" name="gender" id="noGender" value="Decline"/>
+        </br>
+        <br>
+        Please select the location(s) you will be traveling with Airlines+
+        </br>
+        Florida <input type="checkbox" class="location" value="Florida">
+        Hawii <input type="checkbox" class="location" value="Hawii">
+        Colorado <input type="checkbox" class="location" value="Colorado">
+        <br>
+        <br>
+        Does anyone traveling have dietary restrictions?
+        <br>
+        N/A <input type="checkbox" class="diet" value="N/A">
+        Vegetarian <input type="checkbox" class="diet" value="Vegetarian">
+        Vegan <input type="checkbox" class="diet" value="vegan">
+        </br>
+        <button name="submitButton" id="submitButton">Submit</button>
+        
+
+    </form>
+    <script src="FormsOTH.js"></script>
+</body>
+</html>
