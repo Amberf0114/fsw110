@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="toDo.css">
 </head>
 <body>
+    <header id = "header">Priority To-Do List Creater</header>
     <form>
-        <header id = "header">To Do List</header>
-        <input class = "input" type="text" placeholder="Title">
-        <br>
-        <input class="input" type="text" placeholder="Item">
+        <input id = "input1" name = "input1st" type="text" placeholder="Priority" >
+        
+        <input id="input2" name="input2nd" type="text" placeholder="Non-Priority" >
         <button id="submitBtn">Submit</button>
     </form>
+    <ol id="urgentli"></ol>
+    <ul id="ul"></ul>
 </body>
+<script src ="toDo2.js"></script>
 </html>
